@@ -5,7 +5,7 @@
 
 ```
 git clone https://github.com/icountbackwards/ColorsSRE.git
-cd ColorsSRE
+cd ColorsSRE_
 mkdir build
 cd build
 cmake ..
