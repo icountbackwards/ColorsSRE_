@@ -10,6 +10,8 @@ mkdir build
 cd build
 cmake ..
 cmake --build . --config Release
+
+./ColorsSRE.exe
 ```
 
 ### Description
