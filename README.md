@@ -15,7 +15,7 @@ cmake --build . --config Release
 ```
 
 ### Description
-ColorsSRE is a software rasterizer engine written in C using **SDL3**. It renders graphics onto the screen by simulating the graphics pipeline entirely with CPU power. Normally this process is done automtically by the computer by leveraging the GPU's parallel computing power. ColorsSRE, as an educational project, attempts to do its own single-threaded implementation of the graphics pipeline from scratch.
+ColorsSRE is a software rasterizer engine written in C using **SDL3**. It renders graphics onto the screen by simulating the graphics pipeline entirely with CPU power. Normally this process is done automtically by the computer by leveraging the GPU's parallel computing power. ColorsSRE, as an educational project, attempts to do its own single-threaded implementation of the graphics pipeline from scratch. (Simply said I coded 3D graphics from the very scratch)
 
 One .obj file and one .png file are taken as mesh and texture inputs respectively for the program. The program then does a series of rendering algorithm that returns an array of pixels which is then stored in a frame buffer. for each frame iteration, SDL will display what is stored in said frame buffer.
 
