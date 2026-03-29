@@ -4,7 +4,7 @@
 ## How to Build
 
 ```
-https://github.com/icountbackwards/ColorsSRE.git
+git clone https://github.com/icountbackwards/ColorsSRE.git
 cd ColorsSRE
 mkdir build
 cd build
